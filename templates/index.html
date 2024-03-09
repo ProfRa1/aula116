@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minha página da web</title>
+</head>
+<body>
+     <div>
+          <h4 id='display_date'>DATA</h4>
+      </div>
+
+      <!--Texto de Entrada -->
+    <div>
+     <h4>Digite o Texto</h4>
+     <textarea id="text" name="text_input" rows="4" maxlength="200" 
+                 placeholder="Como foi o seu dia?"></textarea>
+     <br><br>
+ </div>
+ <!--Botão de Previsão-->
+ <div>
+     <button id="predict_button" type="submit">Prever Emoção</button><br><br>
+ </div>
+ <!--Emoção Prevista-->
+ <div>
+     <p id="prediction" style="display:block"></p>
+     <img id="emo_img_url" src="Anger.png" width="55" min-height="50" alt="" 
+     style="display:block">
+ </div>
+</passando a variável na página da web/>
+
+<h1>Este é o {{ index_variable }}!</h1>
+
+</Adicionando a imagem à página da web/>
+
+<img src="{{url_for('static',filename='1.png')}}">
+
+<p>Nesta aula, aprenderemos a criar um aplicativo Flask usando modelos.
+     Eu usei a função de renderização render_template do módulo Flask</p>
+
+<p>Vamos para a página da web</p>
+
+</body>
+</html>
